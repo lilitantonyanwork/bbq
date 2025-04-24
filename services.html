@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>BBQ</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mesia.css">
+</head>
+<body>
+<header class="df a-center j-center">
+    <nav class="navbar df a-center">
+        <div class="navbar__logo">
+            <a href="index.html" class="">
+                <img src="img/logo.svg" alt="logo">
+            </a>
+        </div>
+        <div class="navbar__address">
+            <p>Екатеринбург ул. Окружная, 88 лит, оф. 7</p>
+        </div>
+        <ul class="menu df a-center">
+            <li class="menu__item">
+                <a href="services.html" class="menu__link">
+                    услуги
+                </a>
+            </li>
+            <li class="menu__item">
+                <a href="about.html" class="menu__link">
+                    О компании
+                </a>
+            </li>
+            <li class="menu__item">
+                <a href="projects.html" class="menu__link">
+                    Дизайн-проекты
+                </a>
+            </li>
+            <li class="menu__item">
+                <a href="gallery.html" class="menu__link">
+                    галерея
+                </a>
+            </li>
+            <li class="menu__item">
+                <a href="contacts.html" class="menu__link">
+                    Контакты
+                </a>
+            </li>
+        </ul>
+        <div class="navbar__contacts df a-center">
+            <a href="" class="navbar__whatsapp">
+                <img src="img/whatsapp.svg" alt="whatsapp">
+            </a>
+            <div class="navbar__contacts--phone df f-column j-center">
+                <a href="tel:+7(343)302-31-19">+7(343)302-31-19</a>
+                <a href="tel:+7(932)120-08-41">+7(932)120-08-41</a>
+            </div>
+        </div>
+        <button class="btn btn__primary btn__call">Перезвоните мне</button>
+    </nav>
+    <div class="mobile-menu dn">
+        <div class="mobile-menu__content">
+            <button class="btn close__menu">
+                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="20" viewBox="0 0 7 20" fill="none">
+                    <path d="M-4.80825e-07 10L6.75 0.47372L6.75 19.5263L-4.80825e-07 10Z" fill="#EC0B13"/>
+                </svg>
+            </button>
+            <div class="mobile-menu__logo">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="logo">
+                </a>
+            </div>
+            <h2 class="mobile-menu__title">Меню</h2>
+            <ul class="menu df a-center">
+                <li class="menu__item">
+                    <a href="services.html" class="menu__link">
+                        услуги
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="about.html" class="menu__link">
+                        О компании
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="projects.html" class="menu__link">
+                        Дизайн-проекты
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="gallery.html" class="menu__link">
+                        галерея
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="contacts.html" class="menu__link">
+                        Контакты
+                    </a>
+                </li>
+            </ul>
+            <div class="mobile-menu__bottom">
+                <h2 class="mobile-menu__title">Контакты</h2>
+                <div class="mobile-menu__contacts">
+                    <div class="mobile-menu__phone df f-column">
+                        <a href="tel:+7(343)302-31-19">+7(343)302-31-19</a>
+                        <a href="tel:+7(932)120-08-41">+7(932)120-08-41</a>
+                    </div>
+                    <div class="mobile-menu__email df f-column">
+                        <a href="mailto:bbq.service@yandex.ru">bbq.service@yandex.ru</a>
+                    </div>
+                    <div class="mobile-menu__address df f-column">
+                        <p>Офис: г. Екатеринбург ул. Окружная, 88 лит, оф. 7</p>
+                        <p>Склад: г. Екатеринбург ул. Станционная 1а</p>
+                    </div>
+                    <div class="mobile-menu__work df f-column">
+                        <p>Пн-Пт с 7:00 до 16:00 <br>
+                            Сб-Вс: выходные</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<nav class="mobile__navbar dn">
+    <div class="container">
+        <ul class="mobile__navbar--list df a-center j-spc-btw">
+            <li class="mobile__navbar--item">
+                <a href="services.html" class="mobile__navbar--link mobile__navbar--link-active">
+                    <button class="btn btn__service">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
+                            <rect width="6" height="1" fill="white"/>
+                            <rect y="3" width="10" height="1" fill="white"/>
+                            <rect y="6" width="6" height="1" fill="white"/>
+                        </svg>
+                    </button>
+                    Услуги
+                </a>
+            </li>
+            <li class="mobile__navbar--item">
+                <a href="contacts.html" class="mobile__navbar--link ">
+                    <button class="btn btn__contacts">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11" fill="none">
+                            <path d="M2.65276 0.149721C2.59156 0.167651 2.50376 0.208132 2.45676 0.237282C2.33426 0.315932 2.19136 0.500072 2.14446 0.643732C2.10156 0.767262 2.10156 0.780681 2.10156 5.5032V10.2391L2.14646 10.3694C2.20566 10.5468 2.39146 10.7534 2.56086 10.8274L2.68336 10.8813L4.95756 10.888C7.46646 10.8947 7.37256 10.8993 7.57676 10.7556C7.69926 10.668 7.78906 10.5445 7.85026 10.3806L7.89926 10.2526V5.5032V0.753732L7.85026 0.625691C7.75636 0.376431 7.59106 0.214732 7.35826 0.147412C7.18076 0.0980217 2.82636 0.0980213 2.65276 0.149721ZM5.73536 0.585321C5.79666 0.652641 5.79046 0.771661 5.72316 0.830071C5.67006 0.874951 5.64556 0.877262 5.00656 0.877262H4.34516L4.29616 0.821162C4.23286 0.753842 4.23086 0.661771 4.29006 0.592141L4.33296 0.540551H5.01486C5.66806 0.540441 5.69656 0.542641 5.73536 0.585321ZM7.62376 5.25614V9.21955H5.01076H2.39766L2.39146 5.27858C2.38946 3.11158 2.39146 1.32408 2.39756 1.30835C2.40366 1.28591 2.93856 1.2814 5.01466 1.28591L7.62366 1.29262V5.25614H7.62376ZM5.14946 9.5699C5.24946 9.59916 5.38426 9.7338 5.43116 9.84831C5.51896 10.0572 5.44546 10.3401 5.26986 10.4771C5.19846 10.531 5.15756 10.5444 5.04526 10.5512C4.83086 10.5647 4.67776 10.4727 4.59406 10.275C4.42476 9.87537 4.75956 9.45088 5.14946 9.5699Z" fill="white"/>
+                            <path d="M4.69434 1.90338C4.52084 1.95277 4.39424 2.03813 4.27994 2.17739C4.13704 2.35251 4.10024 2.48506 4.07784 2.89602C4.05944 3.20369 4.05334 3.24637 4.01664 3.27332C3.97994 3.30247 3.97584 3.32722 3.98394 3.50014C3.98804 3.65953 4.00234 3.71794 4.05334 3.83927C4.08804 3.92012 4.14524 4.02341 4.18194 4.06829C4.21664 4.11317 4.24524 4.16256 4.24524 4.17829C4.24524 4.22548 4.36364 4.49047 4.42084 4.57352L4.46984 4.64535L4.38414 4.70145C4.27794 4.76877 3.87584 4.97986 3.54304 5.14387C3.23274 5.29435 3.12454 5.40655 2.98984 5.70751C2.85104 6.02189 2.76124 6.46651 2.81424 6.57431C2.86524 6.6798 3.08574 6.74723 3.67364 6.83479C4.57394 6.97174 5.42724 6.97174 6.32754 6.83479C6.91544 6.74723 7.13594 6.6798 7.18694 6.57431C7.26044 6.42383 7.08284 5.76812 6.88684 5.47618C6.78684 5.3257 6.68474 5.25387 6.32134 5.07424C5.99884 4.91705 5.60074 4.70376 5.55784 4.66559C5.53744 4.64766 5.54354 4.62742 5.58034 4.57132C5.63954 4.48596 5.70074 4.35121 5.73544 4.23219C5.74974 4.1828 5.78854 4.10646 5.82324 4.06378C5.85594 4.0211 5.91304 3.92001 5.94774 3.83916C5.99874 3.72234 6.01304 3.65722 6.01714 3.50905C6.02534 3.34966 6.02124 3.32271 5.98244 3.28003C5.94574 3.23955 5.93954 3.19247 5.92324 2.89151C5.90894 2.62883 5.89264 2.51652 5.85994 2.41994C5.80274 2.25824 5.64154 2.06068 5.50884 1.98434C5.29044 1.8629 4.95154 1.82924 4.69434 1.90338Z" fill="white"/>
+                            <path d="M3.34954 7.51747C3.32504 7.55113 3.30664 7.59381 3.30664 7.61625C3.30664 7.63869 3.32504 7.68137 3.34954 7.71503L3.39034 7.77344H5.00104H6.61174L6.65254 7.71503C6.70564 7.63869 6.70564 7.59381 6.65254 7.51747L6.61174 7.45906H5.00104H3.39034L3.34954 7.51747Z" fill="white"/>
+                            <path d="M2.87824 8.33207C2.82514 8.39047 2.82514 8.514 2.87414 8.56339C2.90884 8.59936 3.08644 8.60156 5.00544 8.60156C7.00604 8.60156 7.09994 8.59936 7.13054 8.56119C7.17754 8.50509 7.17344 8.38608 7.12444 8.33218C7.08364 8.2873 7.05704 8.2873 5.00134 8.2873C2.94564 8.28719 2.91904 8.28719 2.87824 8.33207Z" fill="white"/>
+                        </svg>
+                    </button>
+                    Контакты
+                </a>
+            </li>
+            <li class="mobile__navbar--item">
+                <a href="" class="mobile__navbar--link mobile__navbar--menu">
+                    <button class="btn btn__menu"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="14" viewBox="0 0 26 14" fill="none">
+                        <line x1="1" y1="1" x2="25" y2="1" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="23" y1="13" x2="3" y2="13" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                        <path d="M21 7L6 7" stroke="white" stroke-width="2" stroke-linecap="round"/>
+                    </svg></button>
+                    Meню
+                </a>
+            </li>
+            <li class="mobile__navbar--item">
+                <a href="" class="mobile__navbar--link ">
+                    <button class="btn btn__whatsapp">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 19 19" fill="none">
+                            <g clip-path="url(#clip0_736_5266)">
+                                <path d="M12.2219 10.3097C12.325 10.3097 12.715 10.4859 13.3881 10.8366C14.0613 11.1872 14.4194 11.3991 14.4588 11.4703C14.4756 11.5097 14.4831 11.5697 14.4831 11.6503C14.4831 11.9128 14.4156 12.2166 14.2806 12.5597C14.1531 12.8709 13.87 13.1316 13.4313 13.3434C12.9925 13.5553 12.5856 13.6603 12.2106 13.6603C11.7569 13.6603 10.9975 13.4128 9.93813 12.9178C9.15625 12.5597 8.47938 12.0891 7.90375 11.5059C7.33 10.9228 6.73938 10.1859 6.13375 9.29344C5.56 8.44031 5.27688 7.66594 5.28438 6.97219V6.87656C5.30875 6.15094 5.60313 5.52094 6.16938 4.98656C6.36063 4.81031 6.56875 4.72406 6.79188 4.72406C6.84063 4.72406 6.91188 4.72969 7.0075 4.74281C7.10313 4.75406 7.17813 4.76156 7.23438 4.76156C7.38625 4.76156 7.49125 4.78781 7.55125 4.83844C7.61125 4.89094 7.67313 4.99969 7.73688 5.16656C7.80063 5.32594 7.93188 5.67656 8.1325 6.21844C8.33125 6.76031 8.4325 7.06031 8.4325 7.11656C8.4325 7.28344 8.29563 7.51406 8.02 7.80469C7.74438 8.09531 7.6075 8.28094 7.6075 8.36156C7.6075 8.41781 7.62813 8.47781 7.6675 8.54156C7.93938 9.12469 8.34625 9.67031 8.88813 10.1803C9.33438 10.6022 9.93625 11.0053 10.6938 11.3878C10.7894 11.4441 10.8775 11.4722 10.9563 11.4722C11.0763 11.4722 11.2919 11.2791 11.6031 10.8928C11.9106 10.5028 12.1169 10.3097 12.2219 10.3097ZM9.79188 16.6491C10.8044 16.6491 11.7756 16.4503 12.7056 16.0509C13.6356 15.6516 14.4344 15.1172 15.1038 14.4478C15.7731 13.7784 16.3075 12.9778 16.7069 12.0497C17.1063 11.1197 17.305 10.1503 17.305 9.13594C17.305 8.12156 17.1063 7.15219 16.7069 6.22406C16.3075 5.29406 15.7731 4.49531 15.1038 3.82594C14.4344 3.15656 13.6338 2.62219 12.7056 2.22281C11.7756 1.82344 10.8063 1.62469 9.79188 1.62469C8.77938 1.62469 7.80813 1.82344 6.87813 2.22281C5.94813 2.62219 5.14938 3.15656 4.48 3.82594C3.81063 4.49531 3.27625 5.29594 2.87688 6.22406C2.4775 7.15406 2.27875 8.12344 2.27875 9.13781C2.27875 10.7559 2.75688 12.2241 3.715 13.5403L2.77 16.3284L5.665 15.4078C6.925 16.2347 8.30125 16.6491 9.79188 16.6491ZM9.79188 0.117188C11.0125 0.117188 12.1788 0.357187 13.2906 0.835312C14.4044 1.31344 15.3625 1.95469 16.1688 2.76094C16.975 3.56719 17.6163 4.52531 18.0944 5.63719C18.5725 6.75094 18.8125 7.91719 18.8125 9.13594C18.8125 10.3566 18.5725 11.5228 18.0944 12.6347C17.6163 13.7484 16.975 14.7066 16.1688 15.5128C15.3625 16.3191 14.4044 16.9603 13.2925 17.4384C12.1806 17.9166 11.0144 18.1566 9.79375 18.1566C8.23938 18.1566 6.7825 17.7816 5.42688 17.0316L0.4375 18.6347L2.065 13.7897C1.2025 12.3703 0.773125 10.8197 0.773125 9.13594C0.773125 7.91531 1.01312 6.74906 1.49125 5.63719C1.96938 4.52531 2.6125 3.56531 3.41688 2.76094C4.22313 1.95469 5.18125 1.31344 6.29313 0.835312C7.405 0.355312 8.57313 0.117188 9.79188 0.117188Z" fill="white"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_736_5266">
+                                    <rect width="18.75" height="18.75" fill="white" transform="translate(0.25)"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </button>
+                    WhatsApp
+                </a>
+            </li>
+            <li class="mobile__navbar--item">
+                <a href="tel:" class="mobile__navbar--link btn__request">
+                    <button class="btn btn__call">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none">
+                            <path d="M11.869 9.53984C11.7839 9.03632 11.3356 8.50532 10.5631 7.99268C9.77916 7.47548 9.18372 7.39952 8.64348 7.74896C8.56536 7.79948 8.35848 7.97888 8.18364 8.14892C7.8204 8.50064 7.79052 8.51444 7.55604 8.45012C7.02504 8.303 6.24792 7.69844 5.1606 6.59492C4.49616 5.91907 4.15596 5.51671 3.8502 5.05003C3.61116 4.68223 3.48468 4.33735 3.53988 4.19479C3.55368 4.15795 3.67548 4.01311 3.8112 3.87523C4.22496 3.44767 4.37676 3.21775 4.45032 2.90503C4.56528 2.41075 4.31928 1.78543 3.70776 1.02223C3.04116 0.190151 2.41356 -0.0604092 1.7376 0.238511C1.48704 0.348911 1.2594 0.530471 0.813483 0.976511C0.418083 1.36963 0.367443 1.42939 0.294003 1.58575C0.0663632 2.06395 0.0618033 2.64319 0.275523 3.48235C0.567483 4.62715 1.28016 5.9468 2.28936 7.20884C2.9814 8.0732 3.95844 9.04796 4.82976 9.74C6.855 11.3515 9.03672 12.1744 10.2299 11.779C10.4713 11.6985 10.5816 11.6181 10.9793 11.2341C11.5172 10.7145 11.7472 10.3927 11.8391 10.0341C11.8805 9.86864 11.892 9.6824 11.869 9.53984ZM11.3932 10.0456C11.3402 10.179 11.2207 10.3698 11.1035 10.5055C11.0437 10.5745 11.0322 10.5813 11.0116 10.5492C10.9288 10.4089 10.6207 10.0411 10.4161 9.83876C9.915 9.33992 9.26436 8.90996 8.62068 8.65256C8.50116 8.6066 8.39304 8.55824 8.38392 8.5514C8.35404 8.52608 8.81616 8.1284 8.96556 8.04788C9.22308 7.90988 9.46212 7.9076 9.78624 8.03636C10.2461 8.22032 10.9702 8.77436 11.2322 9.13988C11.469 9.47096 11.5172 9.7376 11.3932 10.0456ZM10.3632 11.2411C9.72876 11.7514 8.05056 11.3583 6.34476 10.2985C3.50328 8.53292 0.992763 5.32831 0.583563 2.94199C0.510003 2.50519 0.544443 2.00635 0.664083 1.77415C0.689403 1.72819 0.838803 1.55575 0.995163 1.39027L1.28256 1.09135L1.38828 1.14883C1.56072 1.24075 1.96068 1.54879 2.18376 1.76035C2.68032 2.23399 3.1194 2.91439 3.32172 3.52363L3.38148 3.70531L3.28956 3.80419C3.15624 3.94903 3.1194 4.04791 3.11712 4.26403C3.11484 4.70767 3.42516 5.27323 4.13316 6.11467C4.42968 6.46628 5.49864 7.5398 5.86188 7.84784C6.69408 8.56052 7.28952 8.89388 7.72632 8.89616C7.86888 8.89616 8.05272 8.83868 8.1378 8.76512L8.21136 8.70536L8.3286 8.74676C9.2436 9.07088 10.1815 9.75824 10.7425 10.5169L10.8966 10.7238L10.6828 10.9399C10.5678 11.0571 10.423 11.1928 10.3632 11.2411ZM3.96528 3.00175C3.8826 3.16951 3.56988 3.55807 3.54 3.52363C3.53076 3.51439 3.50088 3.43855 3.471 3.35587C3.1698 2.49379 2.52612 1.68451 1.68936 1.11439C1.56288 1.02703 1.45488 0.953471 1.45032 0.948911C1.43652 0.939671 1.52844 0.866111 1.70088 0.746591C2.28936 0.339671 2.82504 0.546551 3.49176 1.43395C3.90096 1.97875 4.08492 2.39947 4.05504 2.72371C4.04808 2.78791 4.00896 2.90983 3.96528 3.00175Z" fill="white"/>
+                        </svg>
+                    </button>
+                    Позвонить
+                </a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+    <main class="services-page">
+       <section class="page-banner ">
+           <div class="container">
+               <div class="breadcrumbs">
+                   <a href="" class="breadcrumbs__link">Главная</a> /
+                   <span class="breadcrumbs__page">Услуги</span>
+               </div>
+               <h2 class="page__title">Услуги</h2>
+           </div>
+       </section>
+        <section class="products">
+            <div class="container">
+                <div class="tab df j-spc-btw ">
+                    <button class="btn tab__links active" data-id="oven">ПЕЧИ</button>
+                    <button class="btn tab__links" data-id="gazebos">БЕСЕДКИ</button>
+                    <button class="btn tab__links" data-id="complexes">КОМПЛЕКСЫ</button>
+                </div>
+
+                <div id="oven" class="tab__content f-column" style="display: flex">
+                    <div class="tab__content--top df a-end">
+                       <div class="tab__content--left">
+                            <h2>Мангал-камин</h2>
+                          <div>
+                              <p>Мангал-камин — это идеальное сочетание функциональности и стиля для вашего сада или террасы. Этот уникальный продукт позволяет насладиться приготовлением еды на открытом воздухе, а также служит отличным источником обогрева и украшением вашего участка.</p>
+                              <p>Возможна установка «под ключ», стоимость работ и дополнительных комплектующих уточняйте у менеджера</p>
+                          </div>
+                       </div>
+                        <div class="tab__content--center">
+                            <div class="product__slider swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="product__img">
+                                            <img src="img/product.png" alt="product">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="product__img">
+                                            <img src="img/product.png" alt="product">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="product__img">
+                                            <img src="img/product.png" alt="product">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="product__img">
+                                            <img src="img/product.png" alt="product">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                        <div class="tab__content--right">
+                            <div class="settings">
+                                <h4>размеры</h4>
+                                <p> <span>Высота печи </span><span>125 см</span></p>
+                                <p><span>Глубина печи </span> <span>125 см</span></p>
+                                <p><span>Длина печи  </span><span>125 см</span></p>
+                                <h4>Цвета</h4>
+                                <div class="colors">
+                                    <div class="color__item color__item--active"></div>
+                                    <div class="color__item "></div>
+                                    <div class="color__item "></div>
+                                    <div class="color__item "></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab__content--bottom df a-center j-center">
+                        <button class="btn btn__primary btn__request">Оформить заказ</button>
+                    </div>
+                </div>
+
+                <div id="gazebos" class="tab__content">
+                    <h3>Paris</h3>
+                    <p>Paris is the capital of France.</p>
+                </div>
+
+                <div id="complexes" class="tab__content">
+                    <h3>Tokyo</h3>
+                    <p>Tokyo is the capital of Japan.</p>
+                </div>
+
+            </div>
+        </section>
+        <section class="service-products">
+            <div class="container">
+                <div class="product__list df f-wrap">
+                    <div class="product__item">
+                        <a href="">
+                        <img src="img/p1.png" alt="p1">
+                        <button class="btn btn__gray">Мангал-камин</button>
+                        </a>
+                    </div>
+                    <div class="product__item">
+                        <a href="">
+                        <img src="img/p2.png" alt="p1">
+                        <button class="btn btn__gray">Мангал-камин</button>
+
+                        </a>
+                    </div>
+                    <div class="product__item">
+                        <a href="">
+                        <img src="img/p3.png" alt="p1">
+                        <button class="btn btn__gray">Мангал-камин</button>
+                        </a>
+                    </div>
+                    <div class="product__item">
+                        <a href="">
+                        <img src="img/p4.png" alt="p1">
+                        <button class="btn btn__gray">Мангал-камин</button>
+                        </a>
+                    </div>
+                    <div class="product__item">
+                        <a href="">
+                        <img src="img/p5.png" alt="p1">
+                        <button class="btn btn__gray">Мангал-камин</button>
+                        </a>
+                    </div>
+                    <div class="product__item">
+                        <a href="">
+                        <img src="img/p6.png" alt="p1">
+                        <button class="btn btn__gray">Мангал-камин</button>
+                        </a>
+                    </div>
+                    <div class="product__item">
+                        <a href="">
+                        <img src="img/p7.png" alt="p1">
+                        <button class="btn btn__gray">Мангал-камин</button>
+                        </a>
+                    </div>
+                    <div class="product__item">
+                        <a href="">
+                        <img src="img/p8.png" alt="p1">
+                        <button class="btn btn__gray">Мангал-камин</button>
+                        </a>
+                    </div>
+                    <div class="product__item">
+                        <a href="">
+                        <img src="img/p9.png" alt="p1">
+                        <button class="btn btn__gray">Мангал-камин</button>
+                        </a>
+                    </div>
+                    <div class="product__item">
+                        <a href="">
+                        <img src="img/p10.png" alt="p1">
+                        <button class="btn btn__gray">Мангал-камин</button>
+                        </a>
+                    </div>
+                    <div class="product__item">
+                        <a href="">
+                        <img src="img/p11.png" alt="p1">
+                        <button class="btn btn__gray">Мангал-камин</button>
+                        </a>
+                    </div>
+                    <div class="product__item">
+                        <a href="">
+                        <img src="img/p12.png" alt="p1">
+                        <button class="btn btn__gray">Мангал-камин</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container">
+
+                <div class="service__list df j-center">
+                    <div class="service__item">
+                        <div class="service__img">
+                            <img src="img/service1.png" alt="service1">
+                        </div>
+                        <div class="service__content">
+                            <h3 class="service__item--title">чистка</h3>
+                            <a href="" class="btn btn__outline btn__more">Подробнее</a>
+                        </div>
+
+                    </div>
+                    <div class="service__item">
+                        <div class="service__img">
+                            <img src="img/service2.png" alt="service2">
+                        </div>
+                        <div class="service__content">
+                            <h3 class="service__item--title">Ремонт</h3>
+                            <a href="" class="btn btn__outline btn__more">Подробнее</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="request">
+            <div class="container">
+                <h2>Заказать проект</h2>
+                <p>Подберем индивидуально весь перечень необходимых услуг для вас по выгодным ценам.
+                    Уточняйте подробности у менеджера.</p>
+                <form action="" class="request__form df">
+                    <div class="form__row df f-column">
+                        <input type="text" name="name" placeholder="ФИО" class="form__input">
+                        <label class="label__container">Принимаю условия обработки персональных данных
+                            <input type="checkbox" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <div class="form__row">
+                        <input type="tel" name="name" placeholder="+7 ( _ _ _) _ _ _ - _ _ - _ _" class="form__input js-phone-mask">
+
+                    </div>
+                    <button class="btn btn__primary">Записаться</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer__content df j-center">
+            <div class="footer__col">
+                <a href="index.html" class="footer__logo">
+                    <img src="img/logo.svg" alt="">
+                </a>
+            </div>
+            <div class="footer__col">
+
+                <h4 class="footer__title">Главная</h4>
+                <div class="footer__menu df f-column">
+                    <a href="" class="footer__link">услуги</a>
+                    <a href="" class="footer__link">галерея</a>
+                    <a href="" class="footer__link">дизайн-проекты</a>
+                    <a href="" class="footer__link">Контакты</a>
+                    <a href="" class="footer__link">О компании</a>
+                </div>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__title">услуги</h4>
+                <div class="footer__menu df f-column">
+                    <a href="" class="footer__link">Чистка</a>
+                    <a href="" class="footer__link">Ремонт</a>
+                    <a href="" class="footer__link">Печи</a>
+                    <a href="" class="footer__link">Беседки</a>
+                    <a href="" class="footer__link">Комплексы</a>
+                </div>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__title">ремонт</h4>
+                <div class="footer__menu df f-column">
+                    <a href="" class="footer__link">Ремонт дымоходов</a>
+                    <a href="" class="footer__link">Ремонт каминов</a>
+                    <a href="" class="footer__link">Ремонт печей</a>
+                </div>
+            </div>
+            <div class="footer__col">
+                <h4 class="footer__title">ремнаши контакты</h4>
+                <div class="footer__phone df">
+                    <a href="tel:+7 (343) 302-31-19">+7 (343) 302-31-19</a>
+                    <a href="tel:+7 (932) 120-08-41">+7 (932) 120-08-41</a>
+                </div>
+                <p>Офис: г. Екатеринбург ул. Окружная, 88 лит, оф. 7</p>
+                <p>Склад: г. Екатеринбург ул. Станционная 1а</p>
+                <p>Пн.-Пт. с 09:00 до 18:00</p>
+                <a href="mailto:bbq.service@yandex.ru">bbq.service@yandex.ru</a>
+                <div class="socials df">
+                    <a href="" class="social__item">
+                        <img src="img/telega.svg" alt="tg">
+                    </a>
+                    <a href="" class="social__item">
+                        <img src="img/insta.svg" alt="tg">
+                    </a>
+                    <a href="" class="social__item">
+                        <img src="img/whatsapp-bottom.svg" alt="tg">
+                    </a>
+                    <a href="" class="social__item">
+                        <img src="img/email.svg" alt="tg">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/inputMask/inputmask.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
