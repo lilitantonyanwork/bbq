@@ -1944,11 +1944,14 @@ object-fit: contain;
     top: 22px;
     right: 28px;
 }
-.fslightbox-fade-in-strong{
-    width: 1076px;
-    height: 100%;
+
+.fslightbox-toolbar{
+    display: none!important;
 }
-.fslightbox-fade-in-strong img{
-    width: 100% !important;
-    height: 100% !important;
+body .fslightbox-slide-btn-container-previous {
+    left: 17%;
+}
+
+body .fslightbox-slide-btn-container-next {
+    right: 17%;
 }
