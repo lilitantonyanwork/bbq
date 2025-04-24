@@ -1873,3 +1873,11 @@ footer{
     top: 22px;
     right: 28px;
 }
+.fslightbox-fade-in-strong{
+    width: 1076px;
+    height: 100%;
+}
+.fslightbox-fade-in-strong img{
+    width: 100% !important;
+    height: 100% !important;
+}
