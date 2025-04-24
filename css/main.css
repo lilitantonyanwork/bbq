@@ -1100,6 +1100,7 @@ footer{
 }
 .product__item img{
     height: 411px;
+    object-fit: cover;
 }
 .product__item a{
     display: flex;
@@ -1196,7 +1197,7 @@ footer{
     max-width: 100%;
     width: 100%;
     height: 100%;
-
+object-fit: contain;
 }
 .product__right .settings h2{
     color: #ACA9A3;
@@ -1250,6 +1251,9 @@ footer{
     padding-top: 86px;
     padding-bottom: 45px;
 }
+.cleaning-info img{
+    max-width: 100%;
+}
 .cleaning-info h4{
     color: #000;
     font-size: 18px;
@@ -1268,6 +1272,37 @@ footer{
     background-size: cover;
 
 }
+.work .container{
+    max-width: 1311px;
+}
+.work .why-us__list{
+    width: 100%;
+    padding: 0;
+    justify-content: space-between;
+}
+.work .why-us__item:nth-child(2):before{
+    left: -40px;
+    top: 20px;
+}
+
+.work .why-us__item:nth-child(5):before{
+    left: -40px;
+    top: 20px;
+}
+.work .why-us__item:nth-child(3){
+    width: 374px;
+}
+.work .why-us__item:nth-child(6){
+    width: 374px;
+}
+.why-us__item:nth-child(2):after{
+    top: 20px;
+    right: -86px;
+}
+.why-us__item:nth-child(5):after{
+    top: 20px;
+    right: -86px;
+}
 .features{
     padding-top: 100px;
     padding-bottom: 71px;
@@ -1285,7 +1320,7 @@ footer{
 
 }
 .features__item{
-    width: calc(100%/2  - 40px);
+    width: auto;
     padding-left: 108px;
 }
 
@@ -1297,6 +1332,18 @@ footer{
     letter-spacing: 0.64px;
     font-weight: 600;
     padding-bottom: 25px;
+}
+.features__item:first-child p{
+    max-width: 399px;
+}
+.features__item:nth-child(2) p{
+    max-width: 453px;
+}
+.features__item:nth-child(3) p{
+    max-width: 428px;
+}
+.features__item:nth-child(4) p{
+    max-width: 453px;
 }
 .features__item:first-child{
     background: url('../img/f5.svg') no-repeat left top;
@@ -1340,10 +1387,34 @@ footer{
     background-size: cover;
 }
 .cleaning-why .why-us__list{
-    max-width: 750px;
+    max-width: 900px;
     padding-left: 0;
     padding-right: 0;
     margin: 0 auto  ;
+}
+
+.cleaning-why .why-us__item:nth-child(2):before{
+    left: -70px;
+}
+.cleaning-why .why-us__item:nth-child(4):before{
+    left: -70px;
+    content: '';
+    width: 60px;
+    height: 2px;
+    background: url(../img/line.svg) no-repeat;
+    position: absolute;
+
+    top: 30px;
+}
+.cleaning-why .why-us__item--content h3{
+    margin-bottom: 20px;
+}
+.cleaning-why .why-us__item--number{
+    left: 30px;
+    top: -5px;
+}
+.cleaning-why .why-us__item:nth-child(2):after{
+    display: none;
 }
 .cleaning-why .why-us__item{
     width: calc(100%/2 - 30px);
