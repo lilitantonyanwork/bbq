@@ -1914,6 +1914,9 @@ object-fit: contain;
 .modal__form .form__row{
     margin-bottom: 24px;
 }
+.modal__form .form__row:last-child{
+    margin-bottom: 0;
+}
 .modal__form .form__textarea{
     width: 100%;
     background: #ffffff;

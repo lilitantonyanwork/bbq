@@ -703,6 +703,11 @@
         gap: 20px;
         padding: 50px 40px;
     }
+    .modal__title{
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
 }
 @media screen and (max-width: 800px){
 
@@ -1231,6 +1236,11 @@
     .cleaning-why .why-us__item--number{
         left: 0;
     }
+    .modal__content{
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
 }
 @media screen and (max-width: 600px){
     .why-us__item--number{
@@ -1345,6 +1355,30 @@
     .accordion{
         font-size: 16px;
     }
+    .modal__form .form__row:last-child{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .modal .btn__close{
+        background-size: 100% 100%;
+        width: 20px;
+        height: 20px;
+    }
+    .modal__title{
+        font-size: 28px;
+    }
+    .modal__form .form__input{
+        padding: 8px 20px;
+        height: 48px;
+    }
+    .modal__form .form__textarea{
+        padding: 8px 20px;
+        height: 90px;
+    }
+    .modal__form .label__container{
+        font-size: 12px;
+    }
+
 }
 @media screen and (max-width: 480px){
     .banner__item{
@@ -1575,5 +1609,11 @@
     }
     .settings h4{
         font-size: 18px;
+    }
+    .modal__title {
+        font-size: 20px;
+    }
+    .mobile__navbar--item:nth-child(4){
+        margin-right: 33px;
     }
 }

@@ -336,6 +336,34 @@
         </div>
 
     </footer>
+<div class="modal modal__request" id="request-modal">
+    <div class="modal__content">
+
+        <button class="btn btn__close"></button>
+        <div class="modal__info">
+            <h2 class="modal__title">Заказать звонок</h2>
+            <form action="" class="modal__form">
+                <div class="form__row">
+                    <input type="text" class="form__input" placeholder="ФИО">
+                </div>
+                <div class="form__row">
+                    <input type="tel" class="form__input js-phone-mask" placeholder="+7 ( _ _ _) _ _ _ - _ _ - _ _">
+                </div>
+                <div class="form__row">
+                    <textarea name="comments" class="form__textarea" placeholder="Комментарий"></textarea>
+                </div>
+                <div class="form__row df a-center  j-spc-btw">
+                    <label class="label__container">Принимаю условия обработки персональных данных
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <button class="btn btn__primary">Отправить</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/inputMask/inputmask.min.js"></script>
     <script src="js/fslightbox.js"></script>
