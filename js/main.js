@@ -117,3 +117,18 @@ phoneInputs.forEach(function (input) {
 
     Inputmask(maskOptions).mask(input);
 });
+
+const project__item =  document.querySelectorAll('.project__item');
+
+if(project__item){
+    project__item.forEach(function (button) {
+        button.addEventListener('click', ()=>{
+            const galleryId = button.getAttribute('data-gallery');
+            openFsLightbox(galleryId);
+        })
+    });
+}
+function openFsLightbox(gallery) {
+    // Programmatically trigger the first image to open the gallery
+    document.querySelector('[data-fslightbox="'+ gallery +'"]').click();
+}
